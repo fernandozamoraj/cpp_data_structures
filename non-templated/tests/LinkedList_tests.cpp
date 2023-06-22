@@ -125,6 +125,8 @@ int main(int argc, char* argv[]){
     DeleteBack();
     GetNodeByData();
 
+    //some additional tests are necessary to test exceptions
+
     return 0;
 }
 

@@ -13,6 +13,7 @@
  *  interface that allows it to be handled like a linked list.
  *  That is why in some cases it returns the entire node as opposed to just the data.
  * 
+ *  This list can be further enhanced with popBack and popFront methods
 ****************************/
 
 typedef int DATATYPE;
