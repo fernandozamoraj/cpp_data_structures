@@ -115,3 +115,16 @@ void LinkedList::insertNode(Node* existingNode, DATATYPE value) {
     }
     _size++;
 }
+
+void LinkedList::insertAfter(Node* currentNode, DATATYPE value){
+    Node* newNode = new Node(value);
+    newNode->next = currentNode->next;
+    currentNode->next = newNode;
+    if (currentNode == head) {
+        head = head;
+    }
+    if(newNode->next == nullptr)
+        tail = newNode;
+        
+    _size++;
+}

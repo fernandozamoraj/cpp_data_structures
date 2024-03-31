@@ -44,6 +44,7 @@ public:
     Node* getNodeByIndex(int index) const;
     Node* getNodeByData(DATATYPE value) const;
     void insertNode(Node* existingNode, DATATYPE value);
+    void insertAfter(Node* currentNode, DATATYPE value);
 };
 
 #endif  // LINKEDLIST_H
